@@ -14,10 +14,10 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Awesome App"),
+        title: const Text("Awesome App"),
       ),
       body: Container(
-        child: Text("Hi Flutter"),
+        child: const Text("Hi Flutter"),
       ),
     );
   }
